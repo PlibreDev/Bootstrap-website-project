@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f8fa;
+    color: #333;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #00C4B4 !important;
+}
+.nav-item:hover {
+    color: #333;
+}
+.nav-link {
+    color: #00C4B4 !important;
+}
+.nav-link:hover {
+    color: #00C4B4 !important;
+}
+.hero-section {
+    background: url(./images/img2-full_home_webdive.jpg);
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section > .container > img {
+    max-height: 70vh;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00C4B4;
+}
+.hero-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+.hero-section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+.hero-section .btn {
+    background-color: #00C4B4;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+.hero-section .btn:hover {
+    background-color: #00a094;
+}
+.large-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 40px 0;
+}
+.section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00C4B4;
+    margin-bottom: 20px;
+}
+.section-subheading {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+.service-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.service-box h3 {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    margin-top: 1rem;
+}
+
+.service-box p {
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px !important;
+}
+.form-section {
+    background-color: #e6f0fa;
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-section .form-label {
+    font-weight: bold;
+}
+.form-section .btn {
+    background-color: #00C4B4;
+    border: none;
+}
+.form-section .btn:hover {
+    background-color: #00a094;
+}
+footer {
+    background-color: #e6f0fa;
+    padding: 40px 0;
+    text-align: center;
+}
+footer a {
+    color: #00C4B4;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 1200px) {
+    .service-box {
+        width: 50vw; /* Specify width */
+        height: auto;
+        margin: 0 auto; /* Ensure horizontal centering */
+    }
+
+    #services .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center service boxes vertically */
+        gap: 20px;
+    }
+}
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050; /* Ensure it appears above other elements */
+}
+
+.chatbot-btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
