@@ -32,7 +32,7 @@ This project is a responsive website for my personal marketing agency website. T
 - **HTML**: For the structure of the website.
 - **CSS**: For styling, including custom styles for sections like the hero, services, and chatbot.
 - **Bootstrap**: For responsive design and components like the navigation bar, carousel, and modal.
-- **JavaScript**: For simulating interactive features (described below).
+- **JavaScript**: For simulating interactive features (described below)
 
 ---
 
